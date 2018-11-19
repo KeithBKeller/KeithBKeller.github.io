@@ -1,0 +1,189 @@
+html {
+	font-family: sans-serif;
+	font-size: 65%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	font-size: 15px;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Ariel, sans-serif;
+	line-height: 1.5;
+	color: #000;
+	background-color: #e6fffd;
+}
+
+footer,
+nav {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	line-height: 50px;
+	font-weight: 900;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #1afff4;
+	text-shadow: 5px 5px 6px rgba(0,0,0,0.5);
+}
+
+h1::after {
+	display: block;
+	content: "";
+	height: 2px;
+	width: 150px;
+	background: #E91C1C;
+	margin: 5px auto 40px;
+	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
+}
+
+h3 {
+    line-height: 60px;
+    padding-bottom: 30px;
+	text-align: center;
+	color: #000
+}
+
+p {
+    font-weight: 350;
+    line-height: 35px;
+    padding-bottom: 20px;
+	text-align: center;
+	color: #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading-padding {
+    padding-bottom: 40px;
+}
+
+.navbar {
+	height: 100px;
+	max-height: 335px;
+	display: block;
+}
+
+.container {
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container-fluid {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.clearfix:after,
+.container:after,
+.navbar:after {
+	clear: both;
+	display: table;
+	content: " ";
+}
+
+.wrap {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+.menu-container {
+	max-height: 340px;
+	margin: 0% auto;
+	content: " ";
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+/*=======================================
+  HOME SECTION STYLES
+  =======================================*/
+  #home {
+	background: url(../images/cover.jpg) no-repeat 50% 50%;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	display: block;
+	height: auto;
+	padding-top: 350px;
+	padding-bottom: 500px;
+	color: #1afff4;
+}
+
+.head-main {
+	text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+	font-variant: small-caps;
+	color: #1afff4;
+	letter-spacing: 5pt;
+	word-spacing: 21pt;
+	font-size: 4.5em;
+	text-align: left;
+	font-family: impact, sans-serif;
+	line-height: 2;
+    font-weight: 900;
+    border: 5px double #fff;
+    padding: 10px;
+}
+
+.head-sub-main {
+    font-size: 23px ;
+    font-weight: 500;
+    padding: 50px 20px 10px 20px;
+	text-transform: uppercase;  
+}
+
+.head-last {
+    font-size: 18px ;
+    font-weight: 900;
+    padding: 5px 20px 20px 20px;
+    border: 1px dotted #fff;
+    padding: 5px;
+}
+  
+ /*=======================================
+  ABOUT SECTION STYLES
+  =======================================*/
+p {
+	background-color: lightgray;
+	width: auto;
+	border: 10px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+
+/*=======================================
+  FOOTER STYLES
+  =======================================*/
+#footer {
+    background-color: lightgray;
+    color: #000;
+	text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: left;
+}
